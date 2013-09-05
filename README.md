@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/tmcw/relative-luminance.png)](https://travis-ci.org/tmcw/relative-luminance)
+
 ## relative-luminance
 
     npm install relative-luminance
