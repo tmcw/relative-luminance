@@ -1,0 +1,22 @@
+{
+  "name": "relative-luminance",
+  "version": "0.0.0",
+  "description": "calculate relative luminance",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "keywords": [
+    "color",
+    "luminance"
+  ],
+  "author": "Tom MacWright",
+  "license": "BSD",
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": "~1.12.1"
+  }
+}
