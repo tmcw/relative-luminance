@@ -9,6 +9,10 @@
   "scripts": {
     "test": "mocha -R spec"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmcw/relative-luminance.git"
+  },
   "keywords": [
     "color",
     "luminance"
