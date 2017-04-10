@@ -2,6 +2,8 @@
 
 ## relative-luminance
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/relative-luminance.svg)](https://greenkeeper.io/)
+
     npm install relative-luminance
 
 Calculate the [relative luminance](http://www.w3.org/TR/2008/REC-WCAG20-20081211/#relativeluminancedef) of
