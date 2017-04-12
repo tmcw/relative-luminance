@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.org/tmcw/relative-luminance.png)](https://travis-ci.org/tmcw/relative-luminance)
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/relative-luminance.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/tmcw/relative-luminance.svg)](https://travis-ci.org/tmcw/relative-luminance)
 
 ## relative-luminance
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/relative-luminance.svg)](https://greenkeeper.io/)
 
     npm install relative-luminance
 
