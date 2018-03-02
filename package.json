@@ -21,7 +21,7 @@
   "author": "Tom MacWright",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "documentation": "^5.0.0",
+    "documentation": "^6.0.0",
     "expect.js": "^0.3.1",
     "jsverify": "^0.8.2",
     "mocha": "^4.0.0"
