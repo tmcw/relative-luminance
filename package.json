@@ -20,6 +20,9 @@
     "color",
     "luminance"
   ],
+  "files": [
+    "index.mjs"
+  ],
   "author": "Tom MacWright",
   "license": "BSD-2-Clause",
   "devDependencies": {
