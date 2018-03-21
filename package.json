@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test": "mocha -R spec",
+    "release": "standard-version",
     "doc": "documentation readme -s API"
   },
   "repository": {
