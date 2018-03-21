@@ -1,6 +1,6 @@
-var expect = require("expect.js");
-var luminance = require("../");
-var jsc = require("jsverify");
+import expect from "expect.js";
+import luminance from "../index.mjs";
+import jsc from "jsverify";
 
 describe("luminance", function() {
   it("calculates lum of black", function() {

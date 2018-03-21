@@ -3,11 +3,12 @@
   "version": "0.0.2",
   "description": "calculate relative luminance",
   "main": "index.js",
+  "module": "index.mjs",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -R spec",
+    "test": "mocha -R spec -r esm",
     "doc": "documentation readme -s API"
   },
   "repository": {
@@ -22,8 +23,11 @@
   "license": "BSD-2-Clause",
   "devDependencies": {
     "documentation": "^5.0.0",
+    "esm": "^3.0.7",
     "expect.js": "^0.3.1",
     "jsverify": "^0.8.2",
-    "mocha": "^4.0.0"
-  }
+    "mocha": "^4.0.0",
+    "standard-version": "^4.3.0"
+  },
+  "esm": true
 }
