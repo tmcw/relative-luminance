@@ -29,7 +29,7 @@
     "esm": "^3.0.7"
   },
   "devDependencies": {
-    "documentation": "^7.1.0",
+    "documentation": "^8.0.0",
     "expect.js": "^0.3.1",
     "jsverify": "^0.8.2",
     "mocha": "^5.2.0",
