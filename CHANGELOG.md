@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/tmcw/relative-luminance/compare/v1.0.2...v2.0.0) (2018-08-20)
+
+
+### Features
+
+* UMD builds, simplified stack ([0bef765](https://github.com/tmcw/relative-luminance/commit/0bef765))
+
+
+### BREAKING CHANGES
+
+* completely new main, unpkg, and module entry points.
+
+
+
 <a name="1.0.2"></a>
 ## [1.0.2](https://github.com/tmcw/relative-luminance/compare/v1.0.1...v1.0.2) (2018-04-16)
 
