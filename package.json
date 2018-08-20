@@ -2,15 +2,18 @@
   "name": "relative-luminance",
   "version": "1.0.2",
   "description": "calculate relative luminance",
-  "main": "index.js",
-  "module": "index.mjs",
+  "source": "index.js",
+  "main": "dist/index.js",
+  "module": "dist/index.m.js",
+  "main:umd": "dist/index.umd.js",
+  "unpkg": "dist/index.umd.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "release": "standard-version",
-    "test": "mocha -R spec -r esm",
-    "doc": "documentation readme -s API"
+    "release": "microbundle && standard-version",
+    "test": "microbundle && tape test/*.js",
+    "doc": "documentation readme -s API index.js"
   },
   "repository": {
     "type": "git",
@@ -21,19 +24,14 @@
     "luminance"
   ],
   "files": [
-    "index.mjs"
+    "dist"
   ],
   "author": "Tom MacWright",
   "license": "BSD-2-Clause",
-  "dependencies": {
-    "esm": "^3.0.7"
-  },
   "devDependencies": {
     "documentation": "^8.1.1",
-    "expect.js": "^0.3.1",
-    "jsverify": "^0.8.2",
-    "mocha": "^5.2.0",
-    "standard-version": "^4.3.0"
-  },
-  "esm": true
+    "microbundle": "^0.6.0",
+    "standard-version": "^4.3.0",
+    "tape": "^4.9.1"
+  }
 }
