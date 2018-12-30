@@ -1,6 +1,6 @@
 {
   "name": "relative-luminance",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "calculate relative luminance",
   "source": "index.js",
   "main": "dist/index.js",
