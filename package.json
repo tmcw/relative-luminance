@@ -29,8 +29,8 @@
   "author": "Tom MacWright",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "documentation": "^8.1.1",
-    "microbundle": "^0.6.0",
+    "documentation": "^9.0.0",
+    "microbundle": "^0.8.1",
     "standard-version": "^4.3.0",
     "tape": "^4.9.1"
   },
