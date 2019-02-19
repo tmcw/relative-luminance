@@ -1,11 +1,11 @@
 {
   "name": "relative-luminance",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "calculate relative luminance",
   "source": "index.js",
   "main": "dist/index.js",
   "module": "dist/index.m.js",
-  "main:umd": "dist/index.umd.js",
+  "umd:main": "dist/index.umd.js",
   "unpkg": "dist/index.umd.js",
   "directories": {
     "test": "test"
@@ -31,7 +31,10 @@
   "devDependencies": {
     "documentation": "^9.0.0",
     "microbundle": "^0.9.0",
-    "standard-version": "^4.3.0",
+    "standard-version": "^5.0.0",
     "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "esm": "^3.0.84"
   }
 }
