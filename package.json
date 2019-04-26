@@ -29,7 +29,7 @@
   "author": "Tom MacWright",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "documentation": "^9.0.0",
+    "documentation": "^10.1.0",
     "microbundle": "^0.11.0",
     "standard-version": "^5.0.0",
     "tape": "^4.9.1"
